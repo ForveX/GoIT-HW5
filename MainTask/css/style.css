@@ -1,0 +1,16 @@
+@font-face {
+
+}
+
+body{
+	background: url("../img/background.png");
+	background-repeat: round;
+}
+
+.wrapper{
+	background: url("../img/background-copy.png");
+	width: 1215px;
+	height: 1028px;
+	margin: 0 auto;
+	margin-top: -15px;
+}
