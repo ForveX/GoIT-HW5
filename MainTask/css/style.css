@@ -1,5 +1,13 @@
 @font-face {
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/HelveticaNeue.ttf');
+	font-weight: normal;
+}
 
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/HelveticaNeueBold.ttf');
+	font-weight: bold;
 }
 
 body{
@@ -10,21 +18,30 @@ body{
 .nav-bar{
 	background-color: #074986;
 	width: 1215px;
-	height: 34px;
+	height: 55px;
 	margin: 0 auto;
 	margin-top: -15px;
 }
 
 .nav-bar li{
+	height: 55px;
 	float: right;
 	color: #fff;
 	list-style: none;
 	margin: 0 20px 0 0 ;
+	padding-top: 10px;
+	padding-right: 7px;
+	padding-left: 7px;
 }
 
+.nav-bar li:hover {
+	background-color: #4eabda
+}
 .nav-bar li>a{
+	font-family: 'Helvetica Neue', sans-serif;
 	text-decoration: none;
 	color: #fff;
+
 }
 
 
@@ -59,12 +76,18 @@ body{
 	border-bottom: 2px solid #fff;
 }
 
+.head h1{
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+}
+
 .centered{
 	width: 276px;
 	height: 35px;
 	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .centered input, button{
@@ -74,9 +97,33 @@ body{
 
 .centered button{
 	position: absolute;
+	z-index: 2;
+}
+
+.fb{
 	left: 142px;
 	top: 100px;
 	opacity: 0.3;
+}
+
+.btn-bg{
+	position: absolute;
+	left: 202px;
+	top: 490px;
+	width: 151px;
+	height: 37px;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(255, 255, 255, 0.3) 100%);
+	border: 1px solid #e68e16;
+	z-index: 1;
+}
+
+.create{
+	position: absolute;
+	left: 202px;
+	top: 490px;
+	opacity: 0;
+	width: 151px;
+	height: 37px;
 	z-index: 2;
 }
 
@@ -100,7 +147,7 @@ body{
 
 .check{
 	height: 14px;
-	margin-top: 5px;
+	margin-top: 25px;
 }
 
 .check input{
@@ -113,7 +160,7 @@ body{
 	width: 214px;
 	height: 14px;
 	color: #ccc;
-	font-family: Tahoma;
+	font-family: 'Helvetica Neue', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 16px;
@@ -124,10 +171,11 @@ body{
 	width: 309px;
 	height: 28px;
 	color: #ccc;
-	font-family: Tahoma;
+	font-family: 'Helvetica Neue', sans-serif;
 	font-size: 11px;
 	font-weight: 400;
 	line-height: 16px;
+	margin-top: 55px;
 }
 
 .paragraph{
@@ -136,7 +184,7 @@ body{
 	width: 19px;
 	height: 12px;
 	color: #999;
-	font-family: Tahoma;
+	font-family: 'Helvetica Neue', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 16px;
