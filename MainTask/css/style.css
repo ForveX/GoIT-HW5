@@ -7,18 +7,12 @@ body{
 	background-repeat: round;
 }
 
-.wrapper{
-	background: url("../img/background-copy.png");
-	width: 1215px;
-	height: 1028px;
-	margin: 0 auto;
-	margin-top: -15px;
-}
-
 .nav-bar{
 	background-color: #074986;
 	width: 1215px;
-	height: 28px;
+	height: 34px;
+	margin: 0 auto;
+	margin-top: -15px;
 }
 
 .nav-bar li{
@@ -28,13 +22,28 @@ body{
 	margin: 0 20px 0 0 ;
 }
 
-.container{
+.nav-bar li>a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.wrapper{
+	background: url("../img/background-copy.png");
+	width: 1215px;
+	height: 1028px;
+	margin: 0 auto;
+	margin-top: -15px;
 	position: relative;
+}
+
+.container{
+	position: absolute;
 	width: 560px;
 	height: 613px;
 	background-color: rgba(65, 65, 60, 0.63);
-	margin: 0 auto;
-	margin-top: 250px;
+	top: 215px;
+	left: 355px;
 }
 
 .fb-btn{
@@ -67,7 +76,7 @@ body{
 	position: absolute;
 	left: 142px;
 	top: 100px;
-	opacity: 0;
+	opacity: 0.3;
 	z-index: 2;
 }
 
@@ -82,7 +91,7 @@ body{
 	margin-top: 30px;
 }
 
-.centered input:active{
+.centered input:focus{
 	width: 276px;
 	height: 35px;
 	background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
@@ -110,13 +119,25 @@ body{
 	line-height: 16px;
 }
 
-.agreement{
+.agreement {
 	text-align: center;
 	width: 309px;
 	height: 28px;
 	color: #ccc;
 	font-family: Tahoma;
 	font-size: 11px;
+	font-weight: 400;
+	line-height: 16px;
+}
+
+.paragraph{
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 19px;
+	height: 12px;
+	color: #999;
+	font-family: Tahoma;
+	font-size: 14px;
 	font-weight: 400;
 	line-height: 16px;
 }
