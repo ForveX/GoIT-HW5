@@ -1,12 +1,12 @@
 @font-face {
 	font-family: 'Helvetica Neue';
-	src: url('../fonts/HelveticaNeue.ttf');
+	src: url('../font/HelveticaNeue.ttf');
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Helvetica Neue';
-	src: url('../fonts/HelveticaNeueBold.ttf');
+	src: url('../font/HelveticaNeueBold.ttf');
 	font-weight: bold;
 }
 
@@ -58,7 +58,7 @@ body{
 	position: absolute;
 	width: 560px;
 	height: 613px;
-	background-color: rgba(65, 65, 60, 0.63);
+	background-color: rgba(0, 0, 0, 0.63);
 	top: 215px;
 	left: 355px;
 }
@@ -85,9 +85,7 @@ body{
 .centered{
 	width: 276px;
 	height: 35px;
-	margin: 0 auto;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin: 15px auto;
 }
 
 .centered input, button{
@@ -103,18 +101,24 @@ body{
 .fb{
 	left: 142px;
 	top: 100px;
-	opacity: 0.3;
+	opacity: 0;
 }
 
 .btn-bg{
 	position: absolute;
-	left: 202px;
-	top: 490px;
+	left: 205px;
+	bottom: 64px;
 	width: 151px;
 	height: 37px;
-	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(255, 255, 255, 0.3) 100%);
-	border: 1px solid #e68e16;
+	background-image: url("../img/button-copy.png");
 	z-index: 1;
+}
+
+.btn-bg p{
+	display: block;
+	line-height: 5px;
+	text-align: center;
+	color: #fff
 }
 
 .create{
@@ -124,7 +128,7 @@ body{
 	opacity: 0;
 	width: 151px;
 	height: 37px;
-	z-index: 2;
+	z-index: 3;
 }
 
 .centered input{
@@ -135,7 +139,7 @@ body{
 }
 
 .centered input:first-child{
-	margin-top: 30px;
+	margin-top: 24px;
 }
 
 .centered input:focus{
@@ -178,9 +182,15 @@ body{
 	margin-top: 55px;
 }
 
+.splitter{
+	position: absolute;
+	top: 172px;
+	left: 142px;
+}
+
 .paragraph{
 	margin: 0 auto;
-	margin-top: 40px;
+	margin-top: 50px;
 	width: 19px;
 	height: 12px;
 	color: #999;
