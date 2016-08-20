@@ -10,12 +10,12 @@
 	font-weight: bold;
 }
 
-body{
+body {
 	background: url("../img/background.png");
 	background-repeat: round;
 }
 
-.nav-bar{
+.nav-bar {
 	background-color: #074986;
 	width: 1215px;
 	height: 55px;
@@ -23,7 +23,7 @@ body{
 	margin-top: -15px;
 }
 
-.nav-bar li{
+.nav-bar li {
 	height: 55px;
 	float: right;
 	color: #fff;
@@ -37,15 +37,13 @@ body{
 .nav-bar li:hover {
 	background-color: #4eabda
 }
-.nav-bar li>a{
+.nav-bar li>a {
 	font-family: 'Helvetica Neue', sans-serif;
 	text-decoration: none;
 	color: #fff;
-
 }
 
-
-.wrapper{
+.wrapper {
 	background: url("../img/background-copy.png");
 	width: 1215px;
 	height: 1028px;
@@ -54,7 +52,7 @@ body{
 	position: relative;
 }
 
-.container{
+.container {
 	position: absolute;
 	width: 560px;
 	height: 613px;
@@ -63,48 +61,50 @@ body{
 	left: 355px;
 }
 
-.fb-btn{
-	position: absolute;
-	left: 142px;
-	top: 100px;
-	z-index: 1;
+.special {
+	background: -moz-linear-gradient(top, rgba(100,168,227,1) 0%, rgba(67,153,211,1) 97%, rgba(66,153,211,0.59) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(100,168,227,1) 0%,rgba(67,153,211,1) 97%,rgba(66,153,211,0.59) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(100,168,227,1) 0%,rgba(67,153,211,1) 97%,rgba(66,153,211,0.59) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64a8e3', endColorstr='#964299d3',GradientType=0 ); /* IE6-9 */
 }
 
-.head{
+.head {
 	color: #fff;
 	text-align: center;
 	border-bottom: 2px solid #fff;
 }
 
-.head h1{
+.head h1 {
 	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: 400;
 	font-size: 24px;
 }
 
-.centered{
+.centered {
 	width: 276px;
 	height: 35px;
 	margin: 15px auto;
 }
 
-.centered input, button{
+.centered input[placeholder] {
+	padding-left: 20px;
+}
+
+.centered input, button {
 	width: 276px;
 	height: 35px;
 }
 
-.centered button{
+.centered button {
 	position: absolute;
 	z-index: 2;
 }
 
-.fb{
-	left: 142px;
-	top: 100px;
-	opacity: 0;
+.fb {
+	margin-top: 34px;
 }
 
-.btn-bg{
+.btn-bg {
 	position: absolute;
 	left: 205px;
 	bottom: 64px;
@@ -114,14 +114,14 @@ body{
 	z-index: 1;
 }
 
-.btn-bg p{
+.btn-bg p {
 	display: block;
 	line-height: 5px;
 	text-align: center;
 	color: #fff
 }
 
-.create{
+.create {
 	position: absolute;
 	left: 202px;
 	top: 490px;
@@ -131,36 +131,36 @@ body{
 	z-index: 3;
 }
 
-.centered input{
+.centered input {
 	color: #fff;
 	background-image: linear-gradient(to top, #111 0%, #0e0d0d 100%);
 	box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1), inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 1px 0 #4b4b4b;
 	border-style: none;
 }
 
-.centered input:first-child{
+.centered input:first-child {
 	margin-top: 24px;
 }
 
-.centered input:focus{
+.centered input:focus {
 	width: 276px;
 	height: 35px;
 	background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
 	box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 1px 0 #4b4b4b;
 }
 
-.check{
+.check {
 	height: 14px;
 	margin-top: 25px;
 }
 
-.check input{
+.check input {
 	width: 20px;
 	height: 12px;
 	background-color: #fff;
 }
 
-.check label{
+.check label {
 	width: 214px;
 	height: 14px;
 	color: #ccc;
@@ -182,15 +182,15 @@ body{
 	margin-top: 55px;
 }
 
-.splitter{
+.splitter {
 	position: absolute;
 	top: 172px;
 	left: 142px;
 }
 
-.paragraph{
+.paragraph {
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 31px;
 	width: 19px;
 	height: 12px;
 	color: #999;
