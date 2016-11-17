@@ -27,27 +27,44 @@ body{
 	z-index: 2;
 }
 
-.nav-bar li{
-	height: 55px;
+.special {
+	float: right;
+	background-color: #47A1D5;
+	margin: 0 20px 0 0;
+	height: 30px;
+	padding-top: 10px;
+	padding-right: 7px;
+	padding-left: 7px;
+	list-style: none;
+}
+
+.special a{
+	font-family: 'Helvetica Neue', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	padding-top: 10px;
+}
+
+.nav-bar__item{
+	height: 40px;
 	float: right;
 	color: #fff;
 	list-style: none;
 	margin: 0 20px 0 0 ;
-	padding-top: 10px;
 	padding-right: 7px;
 	padding-left: 7px;
 }
 
-.nav-bar li:hover {
+.nav-bar__item:hover {
 	background-color: #4eabda
 }
-.nav-bar li>a{
+
+.nav-bar__item a{
 	font-family: 'Helvetica Neue', sans-serif;
 	text-decoration: none;
 	color: #fff;
-
+	line-height: 32px;
 }
-
 
 .wrapper{
 	width: 1215px;
