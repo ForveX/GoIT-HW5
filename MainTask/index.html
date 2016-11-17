@@ -9,7 +9,7 @@
 <div>
 <header class="nav-bar">
 	<ul>
-		<li class="special"> Ola! <a href="#">Entrar</a> ou <a href="#">Cadastre-se</a></li>
+		<li class="special"><a href="#"> Ola! Entrar</a> ou <a href="#">Cadastre-se</a></li>
 		<li><a href="#"><img src="img/inventicons-29.png">Minhas Ofertas</a></li>
 		<li><a href="#">Ajuda</a></li>
 		<li><a href="#">Contato</a></li>
@@ -23,10 +23,11 @@
 		<div class="head">
 			<h1>Cadastre-se</h1>
 	</div>
+		<div class="fb-btn"><img src="img/layer-3-copy.png"></div>
 		<div class="btn-bg"><p>Create my Account</p></div>
 		<form action="#">
-			<div class="centered fb">
-				<a href="#" class="fb"></a>
+			<div class="centered">
+				<button class="fb">loginwithfb</button>
 			</div>
 			<img src="img/layer-49.png" class="splitter">
 			<div class="paragraph"><p>OU</p></div>
@@ -45,8 +46,9 @@
 			<div class="centered">
 				<input type="password" name="confirm" placeholder="Password Confirm"/>
 			</div>
-			<div class="centered check">
-				<label><input type="checkbox" name="recivenews"/>Send me Youbike updates and tips</label>
+			<div class="check">
+				<input type="checkbox" name="recivenews" id='reciveNews'/>
+				<label for=reciveNews>Send me Youbike updates and tips</label>
 			</div>
 			<div class="centered">
 				<button type="submit" class="centered create"></button>
