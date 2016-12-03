@@ -10,7 +10,8 @@
 <header class="nav-bar">
 	<ul>
 		<li class="special"><a href="#"> Ola! Entrar</a> ou <a href="#">Cadastre-se</a></li>
-		<li class="nav-bar__item"><img src="img/inventicons-29.png"><a href="#">Minhas Ofertas</a></li>
+		<li class="nav-bar__item"><a href="#">Minhas Ofertas</a></li>
+		<li class="nav-bar__item--flag"><img src="img/inventicons-29.png"></li>
 		<li class="nav-bar__item"><a href="#">Ajuda</a></li>
 		<li class="nav-bar__item"><a href="#">Contato</a></li>
 		<li class="nav-bar__item"><a href="#">Forum</a></li>
@@ -23,14 +24,16 @@
 		<div class="head">
 			<h1>Cadastre-se</h1>
 	</div>
-		<div class="fb-btn"><img src="img/layer-3-copy.png"></div>
-		<div class="btn-bg"><p>Create my Account</p></div>
+
 		<form action="#">
 			<div class="centered">
-				<button class="fb">loginwithfb</button>
+			        <p><button type="button" class="fb-btn add">Log in with Facebook<div class="caret"></div></button></p>
 			</div>
-			<img src="img/layer-49.png" class="splitter">
-			<div class="paragraph"><p>OU</p></div>
+
+			<div class="form-line">
+            <p class="form-border">OU</p>
+        </div>
+
 			<div class="centered">
 				<input type="text" name="firstname" placeholder="First Name"/>
 			</div>
@@ -46,17 +49,17 @@
 			<div class="centered">
 				<input type="password" name="confirm" placeholder="Password Confirm"/>
 			</div>
-			<div class="check">
+
+			<div class="check centered_chk">
 				<input type="checkbox" name="recivenews" id='reciveNews'/>
 				<label for=reciveNews>Send me Youbike updates and tips</label>
 			</div>
-			<div class="centered">
-				<button type="submit" class="centered create"></button>
-			</div>
-			<div class="centered agreement">
-				<p>By clicking the button above, you agree to the Terms of Service
-					Xiew our Privacy Policy.</p>
-			</div>
+			<div class="form-footer">
+            <div class="block-form-btn">
+                <button class="form-btn">Create my Account</button>
+            </div>
+            <p class="form-footer-txt">By clicking the button above,you agree to the Terms of Service<br> Xiew our Privacy Policy.</p>
+        </div>
 		</form>
 	</div>
 </div>
